@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,200;1,200;1,300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans&family=Poppins:ital,wght@0,200;1,200;1,300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.navbar{
+  
+}
+.two{background-color: #000; color: #fff;}
+.header1{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(img/bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.text-box{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.text-box h1{
+  font-size: 60px;
+  font-weight: 600;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.hero-btn:hover{
+  border: 1px solid #f6ee0b;
+}
+
+@media(max-width: 712px){
+  .header1{
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(img/bg.png);
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .text-box h1 {
+    font-size: 28px;
+  }
+  .text-box p {
+    font-size: 14px;
+  }
+  .about-img{
+    margin-top: -20px;
+  }
+  .txt h2{
+    font-size: 15px;
+    margin-top: 16px;
+  }
+  .card-title{
+    font-size: 25px;
+  }
+  .txt2{
+    font-size: 15px;
+  }
+  .txt5 p{
+    font-size: 15px;
+  }
+  .about {
+    font-size: 13px;
+    margin-bottom: -14px;
+  }
+  .txt1{
+    text-align: center;
+  }
+  .name h4{
+    font-size: 16px;
+  }
+  .name h5{
+    font-size: 12px;
+  }
+  .grey .button{
+    font-size: 10px;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-left: -50%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+.ani2{
+  animation-duration: 2s;
+  animation-name: slideout;
+}
+.txt1{
+  margin-top: -20px;
+}
+.txt1{
+  font-size: 24px;
+}
+.hr1{
+  width: 60%;
+  border-top: 9px solid red;
+}
+.card-title{
+  font-weight: 600;
+}
+.txt3{
+  font-size: 16px;
+}
+ 
+.txt5{
+  font-size: 19px;
+}
+.about1{
+  font-family: Alkatra;
+}
+.hed{
+  font-weight: 900;
+  font-size: 28px;
+}
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  
+}
+.mySlides {
+  display:none;
+
+}
+.hov:hover{
+  border-color: #f6ee0b;
+  cursor: pointer;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  font-size: 20px;
+}
+
+.button {
+  background-color:#E4A11B;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+}
+.bg{
+  background-image: url(img/2.jpg);
+  height: 450px;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.footer {
+  background-color: #111;
+  padding: 6rem 0 3rem;
+}
+.sub-title{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.contact-left{
+  text-align: center;
+}
+
+.titl2{
+  color: #fff;
+  font-size: 15px;
+
+}
+.contact-right form{
+  width: 100%;
+  margin-top: 25px;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  color: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.footer__copyright1 {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: -50px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background: #262626;
+  }
